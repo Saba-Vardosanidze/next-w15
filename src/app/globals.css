@@ -5,6 +5,8 @@
   --foreground: #171717;
   --headerBgColor: #0f161e;
   --headerBorder: #dde1e666;
+  --buttonColor: #0077FF;
+  --lineColor:#C1C7CD;
 }
 
 body {
