@@ -16,8 +16,8 @@ const Footer = () => {
         </div>
         <div className="bg-[var(--lineColor)] my-[48px] w-full h-[1px]"></div>
         <div className="flex">
-        <div className="flex gap-[218px] text-[18px]">{footerInfo.map((eachElement) => (
-          <div>
+        <div className="flex gap-[218px] text-[18px]">{footerInfo.map((eachElement, index) => (
+          <div key={index}>
             <p className="mb-[28px] font-bold text-[var(--colorWhite)]">{eachElement.title}</p>
             <ul className="flex flex-col gap-[16px]">
                 {eachElement.variant.map((link, index)=>(
@@ -39,8 +39,8 @@ const Footer = () => {
         <div className="flex justify-between">
           <p className="font-medium text-[14px] text-[var(--colorWhite)]">Greelogix @ 202X. All rights reserved.</p>
           <ul className="flex gap-[24px] font-medium text-[var(--colorWhite)]">
-            {pagesName.map((eachElement) => (
-              <li>{eachElement.page}</li>
+            {pagesName.map((eachElement,index) => (
+              <li key={index}>{eachElement.page}</li>
             ))}
           </ul>
         </div>
