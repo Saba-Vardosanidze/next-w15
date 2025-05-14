@@ -30,8 +30,6 @@ const Footer = () => {
           <p className="mb-[36px] text-[var(--colorWhite)]">Column Four</p>
           <div>
             <p  className="mb-[20px] font-bold text-[var(--colorWhite)]">Join Us</p>
-            <div>
-              </div>   
           </div>
         </div>
         </div>
